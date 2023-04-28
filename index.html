@@ -3,16 +3,27 @@
 
 <body>
 
+
+
     <p id="width"></p>
     <p id="height"></p>
+    <p id="color"></p>
     <p id="url"></p>
 
-    <script>
-        document.getElementById("width").innerHTML = "Screen width is: " + screen.width + "px";
+    <p>
+        //Explain the difference between the location and history objects in the browser object model.
+        <br>
+        ans:
+    </p>
 
-        document.getElementById("height").innerHTML = "Screen height is :" + screen.height + "px";
+    <script>
+        document.getElementById("width").innerHTML = "Screen width is: " + screen.width + "px"
+
+        document.getElementById("height").innerHTML = "Screen height is :" + screen.height + "px"
 
         document.getElementById("url").innerHTML = "Current URL of document is :" + document.URL
+
+        document.getElementById("color").innerHTML = "Color depth of Screen is:" + screen.colorDepth
     </script>
 
 </body>
