@@ -4,22 +4,27 @@
 <body>
 
 
+    <p id="window-width"></p>
+    <p id="window-height"></p>
 
-    <p id="width"></p>
-    <p id="height"></p>
+
+
+    <p id="screen-width"></p>
+    <p id="screen-height"></p>
     <p id="color"></p>
     <p id="url"></p>
 
-    <p>
-        //Explain the difference between the location and history objects in the browser object model.
-        <br>
-        ans:
-    </p>
+
 
     <script>
-        document.getElementById("width").innerHTML = "Screen width is: " + screen.width + "px"
 
-        document.getElementById("height").innerHTML = "Screen height is :" + screen.height + "px"
+        document.getElementById("window-width").innerHTML = "window width is :" + window.innerWidth + "px"
+
+        document.getElementById("window-height").innerHTML = "window height is :" + window.innerHeight + "px"
+
+        document.getElementById("screen-width").innerHTML = "Screen width is: " + screen.width + "px"
+
+        document.getElementById("screen-height").innerHTML = "Screen height is :" + screen.height + "px"
 
         document.getElementById("url").innerHTML = "Current URL of document is :" + document.URL
 
